@@ -10,7 +10,7 @@
     "dev": "tsx watch --include ./**/* src/index.ts",
     "migrate": "prisma migrate deploy",
     "pretest": "dotenv -e .env.test -- prisma migrate deploy",
-    "test": "npx dotenv -e env.test -- tsx --test --test-concurrency=1"
+    "test": "npx dotenv -e .env.test -- tsx --test --test-concurrency=1"
   },
   "dependencies": {
     "@faker-js/faker": "^10.5.0",
